@@ -1,0 +1,39 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  font-family: var(--font-mono);
+}
+
+.description {
+  position: absolute;
+  top: 193px;
+  font-size: 20.5px;
+} 
+
+.blogItem {
+  margin-top: 20px;
+}
+
+.u {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.u li {
+  margin-left: 20px;
+  list-style-type: none;
+  font-weight: bolder;
+  font-family: var(--font-mono);
+}
+
+.blogs {
+  margin-bottom: 35vh;
+}
